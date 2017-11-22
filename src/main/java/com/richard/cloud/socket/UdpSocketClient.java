@@ -6,8 +6,10 @@ import java.net.InetAddress;
 
 public class UdpSocketClient {
     public static void main(String[] args) throws Exception{
+        
         // 创建发送端socket对象
         DatagramSocket socketClient = new DatagramSocket();
+        
         //把发送的数据打包
           String message = "Hello,richard!";
           byte[] bys =message.getBytes();
