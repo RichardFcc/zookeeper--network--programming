@@ -14,7 +14,8 @@ public class TestZkClient {
                 System.out.println(event.getPath());
             }
         });
-      //创建节点（                节点   +        数 据  +               ACL权限+                         节点的类型）
+      
+        //创建节点（                节点   +        数 据  +               ACL权限+                         节点的类型）
         zooKeeper.create("/zkjava","hello zk".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
         zooKeeper.close();
     }

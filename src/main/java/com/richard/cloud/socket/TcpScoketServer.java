@@ -6,6 +6,7 @@ import java.net.Socket;
 
 public class TcpScoketServer {
     public static void main(String[] args) throws Exception{
+       
         //建立服务端 socket 服务，并且监听一个端口
         ServerSocket ss = new ServerSocket(13131);
         //监听连接
