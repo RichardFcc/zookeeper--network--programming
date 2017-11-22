@@ -4,6 +4,7 @@ import java.net.InetAddress;
 
 public class TestInetAdress {
     public static void main(String[] args) throws Exception {
+       
         InetAddress adress = InetAddress.getLocalHost();
 
         System.out.println(adress.getAddress());
