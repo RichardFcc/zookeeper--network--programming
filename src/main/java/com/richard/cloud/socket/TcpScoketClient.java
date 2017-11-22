@@ -6,6 +6,7 @@ import java.net.Socket;
 
 public class TcpScoketClient {
     public static void main(String[] args) throws Exception{
+       
         //创建客户端的 socket 服务，指定目的主机和端口
         InetAddress address = InetAddress.getLocalHost();
         Socket s = new Socket(address,13131);
