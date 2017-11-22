@@ -5,6 +5,7 @@ import java.net.DatagramSocket;
 
 public class UdpScoketServer {
     public static void main(String[] args) throws Exception{
+       
         //创建服务端Scoket对象
         DatagramSocket socket = new DatagramSocket(12306);
 
